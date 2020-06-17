@@ -6,7 +6,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if brand.new
     BRANDS << brand
     end
   end
