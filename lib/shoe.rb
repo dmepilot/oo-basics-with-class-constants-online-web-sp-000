@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if brand.unique
+    if @brand.unique
     BRANDS << brand
     end
   end
